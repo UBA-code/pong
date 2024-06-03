@@ -26,6 +26,31 @@ The Online Pong Game is a web-based application that allows users to play the cl
 - **Channels**: Create and join channels for group interactions.
 - **Friends System**: Add and manage friends for easy matchmaking.
 
+
+|  profile
+|:-------------------------:
+|  ![](./repo%20images/profile.png)
+
+login             |  history
+:-------------------------:|:-------------------------:
+![img](./repo%20images/login.png)  |  ![](./repo%20images/history.png)
+
+
+play             |  game
+:-------------------------:|:-------------------------:
+![img](./repo%20images/play.png)  |  ![](./repo%20images/game.png)
+
+chat             |  messages
+:-------------------------:|:-------------------------:
+![img](./repo%20images/chat-empty.png)  |  ![](./repo%20images/chat-messages-preview.png)
+
+
+typing status             |  Channels
+:-------------------------:|:-------------------------:
+![img](./repo%20images/chat-typing.png)  |  ![](./repo%20images/channel.png)
+
+
+
 ## Installation
 
 To install and run the Online Pong Game, follow these steps:
@@ -34,25 +59,29 @@ To install and run the Online Pong Game, follow these steps:
    ```sh
    git clone https://github.com/UBA-code/pong.git
    cd pong
+   ```
 2. **Set up environment variables**:
    an `.env` example file located in the root directory, add the necessary environment variables.
 
 3. **Run the application**:
-  (before starting, docker and docker compose need to be installed already)
+   (before starting, docker and docker compose need to be installed already)
    ```sh
    docker compose up --build
+   ```
+
 ## Usage
 
 1. **/login**: log in with Intra account.
-2. **/settings**: Customize your user profile with personal information and preferences.
+2. **/settings**: Customize your user profile with personal information and preferences, enable or disable 2 factor authentication.
 3. **/play**: Start a game with a friend, or play against AI.
 4. **/chat**: Use the chat feature to communicate with other players in real-time or join others channels.
 5. **/leaderbard**: Check the leaderboards to see top players and scores.
-5. **/profile**: Check you profile and see games history, friends request and statistics.
+6. **/profile**: Check you profile and see games history, friends request and statistics.
 
 ## Technologies Used
 
 - **Frontend**:
+
   - HTML/CSS
   - tailwind (css styling)
   - framer motion (animations)
@@ -62,13 +91,13 @@ To install and run the Online Pong Game, follow these steps:
   - react query (handling http request and support caching)
 
 - **Backend**:
+
   - Nest
   - PostgreSQL
   - Socket.io
 
 - **Other Tools**:
   - Docker (optional for containerization)
-
 
 ## Acknowledgements
 
