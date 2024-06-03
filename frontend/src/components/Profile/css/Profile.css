@@ -1,0 +1,45 @@
+.badge-wave {
+    position: absolute;
+    bottom: -15px;
+    border-top: 15px solid var(--white-bg);
+    left: 0;
+    width: calc(100% - .5px);
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    @apply transition;
+}
+
+.badge-wave svg {
+    position: relative;
+    display: block;
+    width: calc(143% + 1.3px);
+    height: 41px;
+}
+
+.badge-wave .shape-fill {
+    fill: var(--white-bg);
+    @apply transition;
+}
+
+.wining-rate-box .progress-ring-box .progress-ring {
+	stroke-dasharray: 600;
+	stroke-dashoffset: 300;
+	transform: rotate(-90deg);
+	transform-origin: center;
+}
+
+.leaderBoard-box .body .score::after {
+	position: absolute;
+	content: url('../../../assets/star.png');
+	bottom: 2px;
+	right: -12px;
+}
+
+.leaderBoard-box .body .user-rank:first-child .score::after {
+	filter: invert(83%) sepia(65%) saturate(150%) hue-rotate(324deg) brightness(101%) contrast(108%);
+}
+
+.longestStreak-box .scores .score {
+	@apply text-5xl font-bold rounded-xl px-10 py-5 xl:py-8;
+}

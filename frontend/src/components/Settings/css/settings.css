@@ -1,0 +1,14 @@
+.validation-code .inputs-container input{
+  @apply w-[calc(100%/6)] rounded-md size-10  text-center text-xl text-[--text-blue] font-bold;
+}
+
+
+
+.validation-code .inputs-container input::-webkit-outer-spin-button,
+.validation-code .inputs-container input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.validation-code .inputs-container input[type=number] {
+  -moz-appearance:textfield; 
+}

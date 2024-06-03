@@ -1,0 +1,18 @@
+
+.sideBar-container .section-box .nav-link:hover h1,
+.sideBar-container .section-box .nav-link h1.active{
+	@apply text-[var(--blue)] font-bold;
+}
+
+.sideBar-container .section-box .nav-link:hover img,
+.sideBar-container .section-box .nav-link img.active {
+	filter: invert(100%) sepia(39%) saturate(4000%) hue-rotate(217deg) brightness(86%) contrast(100%);
+}
+
+.sideBar-container .section-box:nth-child(1) .nav-link:hover img {
+	@apply animate-bounce;
+}
+
+.sideBar-container .section-box:last-child .nav-link:hover img{
+	@apply animate-spin;
+}

@@ -1,0 +1,12 @@
+.conversations .avatar-status .status {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    bottom: 2px;
+    right: 0px;
+}
+
+.create-channel-container .input-fields .title {
+    @apply font-semibold transition text-[--text-blue-second-text];
+}

@@ -1,0 +1,36 @@
+.playground-container .section-box {
+  @apply transition bg-[--settings-box] rounded-lg;
+}
+
+.playground-container .section-box .section-box-title {
+  @apply transition bg-[--light-periwinkle] text-center py-4 rounded-t-lg;
+}
+
+/*? game settings section css start*/
+
+.playground-container .game-settings .title {
+  @apply transition text-center text-[#023047] dark:text-[--blue-cyan] font-bold text-xl;
+}
+
+.playground-container .game-settings .choices {
+  @apply flex items-center px-1 py-2;
+}
+
+.playground-container .game-settings .selecter{
+  @apply max-w-36 border-[2.7px] border-[--text-blue] text-[--text-blue] rounded-md font-semibold transition;
+}
+
+.playground-container .game-settings .selecter.active {
+  @apply bg-[--text-blue] dark:bg-[--light-purple] text-white;
+}
+
+/*? game settings section css end*/
+
+
+/*? map selecter css start */
+
+.playground-container .maps-selecter-container .box-content .mapImgBox.active {
+  @apply border-[5px] brightness-50  border-[#00000000] dark:border-[--text-blue] text-white;
+}
+
+/*? map selecter css end */

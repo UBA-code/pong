@@ -1,0 +1,17 @@
+.notificationBox {
+    transform-origin: 88% -19px;
+}
+
+.notificationBox::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    right: 17px;
+    width: 0px;
+    height: 0px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid white;
+}
+

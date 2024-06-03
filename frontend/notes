@@ -1,0 +1,29 @@
+problem when exit channel ==> fixed with stop sending notification from backend
+channels not sorted by last message time => fixed
+unban notification shold be fixed
+when new channel created and switching to the new channel the messages won't update => fixed by clear messages when switch channels
+
+big problems:
+handle 404 errors ==> fixed
+profile doesn't exist show errors in console
+
+not implemented:
+
+- channel avatar didn't update == fixed
+- update channel name without update avatar ==> fixed
+- delete channel == when owner exit the channel deleted
+- send, accept request and message user from user profile page => implemented ✓
+- join and protected channels => implemented
+- change avatar of channel => implemented
+- 2fa login => implemented
+
+ideas:
+
+- add animation to send and recieve message inside conversation ==> implemented ✓
+- implement messages loading enstead of ==> implemented ✓
+- show typing in conversation ==> implemented
+
+hassan zone :
+
+- 7yed typing f channels == fixed
+- error d show users list f channel 3ad memso7a ba9i kayn == fixed

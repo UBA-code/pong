@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--Light-blue-grey: #DEE7FF;
+	--light-periwinkle: #B6CAFF;
+	--light-blue: #E7E8FE;
+	--light-gray: #BCC3E0;
+	--very-light-gray: #F9F9F9;
+	--blue: #1657FF;
+	--light-purple: #C1C5FF;
+	--sky-blue: #888DF8;
+	--sky-blue-dark: #15191d;
+	--text-blue: #3C3F88;
+	--text-blue-const: #3C3F88;
+	--text-blue-second-text: #3C3F88;
+	--purple: #5236FF;
+	--gold: #FFBB38;
+	--light-gold: #FFF5D9;
+	--lose-red: #FFD1DC;
+	--lose-text-red: #F44771;
+	--trans-bg: #00000082;
+	--white-bg: #fff;
+	--white-text: #000;
+	--gold-bg: #FFF5D9;
+	--blue-light-bg: #99B5F3;
+	--wave-start: #5D25FC;
+	--wave-end: #9773FF;
+	--settings-box: #E7E8FE;
+	--blue-cyan: #9fccc6;
+	--nav-icons: #9fccc6;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	scrollbar-color: var(--text-blue) #f0f0f0;
+	scrollbar-width: thin;
+}
+
+
+/*? profile */
+
+.view-all-btn {
+	@apply text-[--blue] hover:text-[--text-blue-const] transition cursor-pointer font-bold;
+}
+
+.box-title {
+	@apply transition text-[--text-blue-const] text-lg font-bold;
+}
+
+
+.box {
+	@apply transition bg-[--white-bg] p-box rounded;
+}
+
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f0f0f0;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: var(--text-blue);
+	border-radius: 20px;
+}
